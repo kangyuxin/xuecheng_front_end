@@ -240,6 +240,192 @@ a {
 .box-bd .info span {
     color: #ff7c2d;
 }
+/*编程入门*/
+.coding {
+    margin-top: 30px;
+}
+.coding-hd {
+    height: 45px;
+}
+.coding-hd h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+.coding-hd ul{
+    float: left;
+    margin-left: 350px;
+}
+.coding-hd ul li {
+    float: left;
+}
+.coding-hd ul li a {
+    padding: 0 30px;
+    font-size: 16px;
+    color: #050505;
+}
+.coding-hd ul li .hot {
+    color: #00a4ff;
+}
+.coding-hd .findAll {
+    float: right;
+    font-size: 12px;
+    color: #a5a5a5;
+    margin-right: 30px;
+}
+.coding-info {
+    float: left;
+    width: 226px;
+    height: 393px;
+    background: url("images/coding_subNav.png") no-repeat top center;
+    margin-right: 14px;
+}
+.coding-info h3 {
+    padding-top: 50px;
+    padding-left: 30px;
+    color: #fff;
+}
+.coding-info .steps {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.coding-info .steps img {
+    float: left;
+    padding-top: 3px;
+    height: 150px;
+}
+.coding-info .steps ul {
+    float: left;
+}
+.coding-info .steps ul li {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 49px;
+}
+.coding-header {
+    padding-bottom: 17px;
+}
+.coding-body {
+    width: 2000px;
+}
+.coding-body ul li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.coding-body ul li img {
+    width: 100%;
+}
+.coding-body ul li h4 {
+    margin: 20px 20px 20px 25px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+.coding-body .info {
+    margin: 0 20px 0 25px;
+    font-size: 12px;
+    color: #999;
+}
+.coding-body .info span {
+    color: #ff7c2d;
+}
+/*数据分析师*/
+.data_analyst {
+    margin-top: 30px;
+}
+.data_analyst-hd {
+    height: 45px;
+}
+.data_analyst-hd h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+.data_analyst-hd ul{
+    float: left;
+    margin-left: 350px;
+}
+.data_analyst-hd ul li {
+    float: left;
+}
+.data_analyst-hd ul li a {
+    padding: 0 30px;
+    font-size: 16px;
+    color: #050505;
+}
+.data_analyst-hd ul li .hot {
+    color: #00a4ff;
+}
+.data_analyst-hd .findAll {
+    float: right;
+    font-size: 12px;
+    color: #a5a5a5;
+    margin-right: 30px;
+}
+.data_analyst-info {
+    float: left;
+    width: 226px;
+    height: 393px;
+    background: url("images/navBg.png") no-repeat top center;
+    margin-right: 14px;
+}
+.data_analyst-info h3 {
+    padding-top: 50px;
+    padding-left: 30px;
+    color: #fff;
+}
+.data_analyst-info .steps {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.data_analyst-info .steps img {
+    float: left;
+    padding-top: 3px;
+    height: 150px;
+}
+.data_analyst-info .steps ul {
+    float: left;
+}
+.data_analyst-info .steps ul li {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 49px;
+}
+.data_analyst-header {
+    padding-bottom: 17px;
+}
+.data_analyst-body {
+    width: 2000px;
+}
+.data_analyst-body ul li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.data_analyst-body ul li img {
+    width: 100%;
+}
+.data_analyst-body ul li h4 {
+    margin: 20px 20px 20px 25px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+.data_analyst-body .info {
+    margin: 0 20px 0 25px;
+    font-size: 12px;
+    color: #999;
+}
+.data_analyst-body .info span {
+    color: #ff7c2d;
+}
 /*footer*/
 .footer {
     height: 415px;
