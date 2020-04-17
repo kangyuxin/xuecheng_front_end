@@ -8,13 +8,22 @@
 }
 body {
     background-color: #f3f5f7;
-    height: 3000px;
 }
 li {
     list-style: none;
 }
 a {
     text-decoration: none;
+}
+.clearfix:before,.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom:1;
 }
 .header {
     height: 42px;
@@ -230,4 +239,48 @@ a {
 }
 .box-bd .info span {
     color: #ff7c2d;
+}
+/*footer*/
+.footer {
+    height: 415px;
+    background-color: #fff;
+}
+.footer .w {
+    padding-top: 35px;
+}
+.copyRight {
+    float: left;
+    padding-left: 30px;
+}
+.copyRight p {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.copyRight .app {
+    display: block;
+    width: 118px;
+    height: 34px;
+    border: 1px solid #00a4ff;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+    color: #00a4ff;
+}
+.links {
+    float: right;
+}
+.links dl {
+    float: right;
+    margin-left: 100px;
+}
+.links dl dt {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 6px;
+}
+.links dl dd a {
+    font-size: 12px;
+    color: #333;
 }
