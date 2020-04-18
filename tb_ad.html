@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>淘宝轮播图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        .tb_promo {
+            position: relative;
+            width: 520px;
+            height: 280px;
+            margin: 200px auto;
+        }
+        .tb_promo img {
+            width: 520px;
+            height: 280px;
+        }
+        .next,
+        .prev {
+            position: absolute;
+            width: 20px;
+            height: 30px;
+            background: rgba(0, 0, 0, .3);
+            top: 50%;
+            margin-top: -15px;
+            text-align: center;
+            line-height: 30px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .next {
+            right: 0;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+        .prev {
+            left: 0;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+        .promo-nav {
+            position: absolute;
+            bottom: 15px;
+            width: 70px;
+            height: 14px;
+            left: 50%;
+            margin-left: -35px;
+            background: rgba(255, 255, 255, .3);
+            border-radius: 7px;
+        }
+        .promo-nav li {
+            float: left;
+            width: 8px;
+            height: 8px;
+            background-color: #fff;
+            border-radius: 4px;
+            margin: 3px;
+        }
+        .promo-nav li:hover {
+            background-color: #ff7c2d;
+        }
+    </style>
+</head>
+<body>
+    <div class="tb_promo">
+        <img src="images/tb.jpg" alt="">
+        <a href="#" class="prev"> &lt; </a>
+        <a href="#" class="next"> &gt; </a>
+        <ul class="promo-nav">
+            <li class="selected"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>
